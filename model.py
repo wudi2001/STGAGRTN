@@ -44,7 +44,7 @@ class S_ProbAttention(nn.Module):
             # V_sum = V.sum(dim=-2)
             V_sum = V.mean(dim=-2)  # 计算170个V的平均值
             contex = V_sum.unsqueeze(-2).expand(B, H, T, N, V_sum.shape[-1]).clone()
-        else:  # use mask   decoder的self-attention使用
+        else:  
             contex = V.cumsum(dim=-2)  # 倒数第二维进行累加操作
         return contex
 
@@ -122,7 +122,7 @@ class T_ProbAttention(nn.Module):
             # V_sum = V.sum(dim=-2)
             V_sum = V.mean(dim=-2)  # 计算170个V的平均值
             contex = V_sum.unsqueeze(-2).expand(B, H, N, T, V_sum.shape[-1]).clone()
-        else:  # use mask   decoder的self-attention使用
+        else:  # use mask   
             contex = V.cumsum(dim=-2)  # 倒数第二维进行累加操作
         return contex
 
