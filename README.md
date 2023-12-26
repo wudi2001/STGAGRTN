@@ -1,5 +1,6 @@
 # STGAGRTN
-This is a PyTorch implementation of STGAGRTN in the Spatial-Temporal Graph Attention Gated Recurrent Transformer Network for Traffic Flow Forecasting.
+This is a PyTorch implementation of STGAGRTN in the Spatial-Temporal Graph Attention Gated Recurrent Transformer Network for Traffic Flow Forecasting. 
+[Spatial-Temporal Graph Attention Gated Recurrent Transformer Network for Traffic Flow Forecasting](https://ieeexplore.ieee.org/document/10347394) has been published in the *IEEE Internet of Things Journal*. 
 
 ## 核心文件介绍
 * prepareData.py 负责处理原始数据，并将其划分为训练集、验证集与测试集。运行完成后得到npz文件，data文件夹下包含处理得到的npz文件，无需重复运行。
