@@ -16,3 +16,17 @@ This is a PyTorch implementation of STGAGRTN in the Spatial-Temporal Graph Atten
 * torch == 1.10.2+cu113
 * torch-geometric == 2.0.4
 
+# Citation
+If you find this repository useful in your research, please consider citing the following paper:
+```
+@ARTICLE{10347394,
+  author={Wu, Di and Peng, Kai and Wang, Shangguang and Leung, Victor C. M.},
+  journal={IEEE Internet of Things Journal}, 
+  title={Spatial-Temporal Graph Attention Gated Recurrent Transformer Network for Traffic Flow Forecasting}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/JIOT.2023.3340182}}
+```
+
