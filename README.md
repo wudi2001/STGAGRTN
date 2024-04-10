@@ -22,11 +22,13 @@ If you find this repository useful in your research, please consider citing the 
 @ARTICLE{10347394,
   author={Wu, Di and Peng, Kai and Wang, Shangguang and Leung, Victor C. M.},
   journal={IEEE Internet of Things Journal}, 
-  title={Spatial-Temporal Graph Attention Gated Recurrent Transformer Network for Traffic Flow Forecasting}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-1},
+  title={Spatial–Temporal Graph Attention Gated Recurrent Transformer Network for Traffic Flow Forecasting}, 
+  year={2024},
+  volume={11},
+  number={8},
+  pages={14267-14281},
+  keywords={Forecasting;Predictive models;Transformers;Feature extraction;Data models;Computational modeling;Graph neural networks;Graph attention networks (GATs);spatial–temporal dependencies;traffic flow forecasting;transformer},
   doi={10.1109/JIOT.2023.3340182}}
+
 ```
 
